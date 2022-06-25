@@ -1,0 +1,6 @@
+t=((2,4,8),6,9,12,(8,7),10)
+print("Tuple is",t)
+print("Element at t[0]=",t[0])
+print("Element at t[3]=",t[3])
+print("Element at t[0][2]=",t[0][2])
+print("Element at t[4][1]=",t[4][1])
