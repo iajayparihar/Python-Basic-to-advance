@@ -1,3 +1,5 @@
+# logical error cointain..!
+
 dic={}
 dic1={}
 for i in range(2):

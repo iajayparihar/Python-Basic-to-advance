@@ -1,6 +1,6 @@
 n=int(input("enter the no:-"))
 r,k=0,0
-y,s=n,n
+y,s=n,n #parallal swap the No.
 
 while(y>0):
 	y=y//10

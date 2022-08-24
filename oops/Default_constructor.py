@@ -5,6 +5,7 @@ class Square:
 		self.n=x
 	def calculation(self):
 		return(self.n*self.n)
+		
 #__ main__
 k=Square()
 print("Square is ",k.calculation())

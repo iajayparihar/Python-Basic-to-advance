@@ -1,3 +1,6 @@
+# swap with next number 
+#         list [1,2,3,4]
+#  swaped list [2,1,4,3]
 def swaplist(xlist):
 	l=[]
 	a=0

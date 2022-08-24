@@ -1,4 +1,5 @@
 dic={}
-for i in range(1,9999999):
+for i in range(1,5):
 	dic[i]=i*i*i
+#	dic[key]=element
 print(dic)

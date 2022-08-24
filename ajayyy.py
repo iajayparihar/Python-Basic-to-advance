@@ -5,3 +5,7 @@ if N1>N2 and -1000<=N1<=1000 and -1000<=N2<=1000 :
 else:
     N1+=N2
 print(N1)
+
+
+if True:
+    print("ajay is great...")
