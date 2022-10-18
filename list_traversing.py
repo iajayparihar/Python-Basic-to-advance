@@ -1,11 +1,11 @@
-l=[4,3,12,2]
+l=[4,3,12,2,"Abc"]
 length=len(l)
 for i in range(length):
-	print(l[i])
+	print(l[i] , end=" ")
 
 
 print()
-
+print()
 
 for i in l:
-	print(i)
+	print(i, end=" ")

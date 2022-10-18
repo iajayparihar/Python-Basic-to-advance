@@ -10,6 +10,11 @@ if 4 in t:
 else:
 	print("not Exist in tuple")
 print()
+if [6,9] in t:
+	print("exist in tuple")
+else:
+	print("not Exist in tuple")
+print()
 if [9,6] in t:
 	print("exist in tuple")
 else:

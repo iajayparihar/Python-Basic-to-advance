@@ -23,7 +23,7 @@ for i in range(len(t)):
 print()
 for i in t:
 	print(i,end=" ")
-
+print()
 
 
 

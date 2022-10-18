@@ -8,3 +8,4 @@ for i in range(n):
 	print(f)
 	f1=f2
 	f2=f
+	

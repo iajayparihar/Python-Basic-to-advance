@@ -1,4 +1,6 @@
 t=(4)
 print(t)
+print(type(t))
 t1=(4,)
 print(t1)
+print(type(t1))

@@ -19,7 +19,13 @@ for a,b in d2.items():
 		dic[a]=d2[a]
 print(dic)
 
+print("----------------------------------------------------------------------------")
 for x,y in d1.items():
+	print(x," ",y," ")
 	# print("the value of",x,"  the value of ",y)
-	if x in d2:
-		print(x)
+	# if x in d2:
+	# 	print(x)
+for i in d1.items():
+	print(i)
+for i in d1.values():
+	print(i)

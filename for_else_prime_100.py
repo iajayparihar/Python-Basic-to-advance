@@ -1,8 +1,8 @@
-for j in range (1, 101):
-	
+# 1 is not a prime NO. 
+# prime no, start from 2
+for j in range (2, 101):	
 	for i in range(2,j):
-        	if(j % i == 0):
-            		break
-
+		if(j % i == 0):
+			break
 	else:
-        	print(j)
+		print(j,end=" ")

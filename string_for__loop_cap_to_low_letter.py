@@ -6,5 +6,5 @@ for i in range(l):
 		nwrd+=chr(ord(wrd[i])+32)
 	else:
 		nwrd+=wrd[i]
-print("upper case=>",wrd)
+print("Entered word is =>",wrd)
 print("lower case=>",nwrd)

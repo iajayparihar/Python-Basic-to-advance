@@ -1,4 +1,4 @@
-j=1
+j=2
 while(j<100):
 	i=2
 	while(i<j):
@@ -6,5 +6,5 @@ while(j<100):
 			break
 		i+=1
 	else:
-		print(j)
+		print(j,end=" ")
 	j+=1

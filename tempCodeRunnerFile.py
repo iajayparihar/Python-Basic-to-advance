@@ -1,1 +1,2 @@
-for x,y in d1.items():
+
+	# 	print(x)
