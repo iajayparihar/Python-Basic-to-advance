@@ -7,7 +7,7 @@ print(s1)
 
 s1.remove(3)
 print(s1)
-s1.remove(1)
+s1.remove(1) # 1 is not present in set so remove method give error thats why we use discard method
 print(s1)
 
 '''

@@ -3,7 +3,7 @@ class Add:
 		self.a=x
 		self.b=y
 	def addition(self):
-		return(self.a+self.b)
+		return (self.a+self.b)
 #__ main__
 k=Add(5,6)
 print("Addition",k.addition())

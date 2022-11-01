@@ -4,7 +4,7 @@ class Square:
 	def getNo(self,x):
 		self.n=x
 	def calculation(self):
-		return(self.n*self.n)
+		return (self.n*self.n)
 		
 #__ main__
 k=Square()

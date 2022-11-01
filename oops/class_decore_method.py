@@ -17,6 +17,8 @@ class eval_equation:
 		temp=temp/len(args)
 		z=cls(temp)
 		return z
+	# @staticmethod(f)
+	
 #__main__
 li=[[1,2],[1,2,3],[1,2,3,4,5]]
 i=0
