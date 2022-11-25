@@ -2,9 +2,9 @@ import mysql.connector as mycnt
 from mysql.connector import Error
 
 try:
-    con=mycnt.connect(host="localhost",database="bca",user="root",password="Abhigyan@786")
+    con=mycnt.connect(host="localhost",database="employee",user="root",password="Abhigyan@786")
 
-    mySql_insert_query='''INSERT INTO student(rollno,Name,salary) VALUES (6,"Bangukk",999900)'''
+    mySql_insert_query='''INSERT INTO employ(empid,Name,salary) VALUES (3,"Abhigyan",3000)'''
 
     cursor=con.cursor()
     cursor.execute(mySql_insert_query)
