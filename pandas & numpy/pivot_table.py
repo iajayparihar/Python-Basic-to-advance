@@ -3,14 +3,14 @@ ontutd={'tutor':["Tahira","ajay","vij","Mamta",
                 "Tahira","ajay","vij","Mamta",
                 "Tahira","ajay","vij","Mamta"],
         'classes':[12,16,13,15,
-                    17,35,15,24,
-                    45,75,84,92],
+                17,35,15,24,
+                45,75,84,92],
         'Quater':[1,1,1,1,
-                    2,2,2,2,
-                    3,3,3,3],
+                2,2,2,2,
+                3,3,3,3],
         "Country":["Indore","Indore","Banglour","Indore",
-                    "Indore","Hydrabad","Banglour","Hydrabad",
-                    "Hydrabad","Indore","Indore","Hydrabad"]
+                "Indore","Hydrabad","Banglour","Hydrabad",
+                "Hydrabad","Indore","Indore","Hydrabad"]
         }
 df1=pd.DataFrame(ontutd)
 print(df1)
