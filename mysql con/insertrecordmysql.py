@@ -4,7 +4,7 @@ from mysql.connector import Error
 try:
     con=mycnt.connect(host="localhost",database="employee",user="root",password="Abhigyan@786")
 
-    mySql_insert_query='''INSERT INTO employ(empid,Name,salary) VALUES (3,"Abhigyan",3000)'''
+    mySql_insert_query='''INSERT INTO employ(empid,Name,salary) VALUES (12,"Naruto",6666666)'''
 
     cursor=con.cursor()
     cursor.execute(mySql_insert_query)

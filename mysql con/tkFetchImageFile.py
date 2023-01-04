@@ -29,7 +29,7 @@ def read_BLOB(empid,photo,biodata):
 
     finally:
         if con.is_connected():
-            cursor.close()
+            cursor.close()                               
             con.close()
             print("Connection is closed .")
 
