@@ -5,7 +5,8 @@ engine = create_engine("mysql+pymysql://root:Abhigyan786@localhost/employee")
 mycon=engine.connect()
 print('connection successfull')
 df = pd.read_sql("select * from emp1",mycon)
-print("before delete table ",df)
+print("before delete table ")
+print(df)
 
 delemp_id = int(input("Enter the empid for delete :- "))
 # we need index for deleting the row 
@@ -15,6 +16,7 @@ delemp_index = df[df["empid"]==delemp_id].index
 
 # drop that row in dataframe
 df.drop(delemp_index,inplace=True)
+
 print("After deleted record %s"%(delemp_id))
 print(df)
 
