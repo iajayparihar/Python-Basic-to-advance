@@ -8,8 +8,8 @@ myText=StringVar()
 Label(window,text="First").grid(row=0, sticky=W)
 Label(window,text="Second").grid(row=1, sticky=W)
 Label(window,text="Result").grid(row=2, sticky=W)
-res=Label(window,text="",textvariable=myText).grid(row=2,column=1,sticky=W)
-
+res=Label(window,text="hello ",textvariable=myText).grid(row=2,column=1,sticky=W)
+# label check ----------------->
 box1=Entry(window,bd=5)
 box1.grid(row=0,column=1)
 box2=Entry(window,bd=5)

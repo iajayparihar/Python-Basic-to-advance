@@ -1,7 +1,7 @@
 import turtle
 
 colors =['red','purple','blue','green','orange','yellow']
-t = turtle.Turtle()
+t = turtle.Pen() # capital P in Pen remember
 turtle.bgcolor("black")
 for x in range(360):
     t.pencolor(colors[x%6])
