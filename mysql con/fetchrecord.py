@@ -15,7 +15,7 @@ try:
         print("Salary  is :",record[2])
         print()
 except Error as e:
-    print("Error in reding data from MySql table {}".format(e))
+    print("Error in reading data from MySql table {}".format(e))
 finally:
     if con.is_connected():
         cursor.close()

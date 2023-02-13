@@ -1,7 +1,7 @@
 import pandas as pd 
 import mysql.connector as connector
 
-con = connector.connect(host="localhost",database="employee",user="root",password="Abhigyan@786")
+con = connector.connect(host="localhost",database="employee",user="root",password="Abhigyan786")
 
 if con.is_connected():
     Lemp_id=int(input("Enter the lower employee id :-"))

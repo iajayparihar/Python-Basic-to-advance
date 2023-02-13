@@ -1,0 +1,8 @@
+CREATE TABLE empinfodetail(id int(4),name varchar(250), photo  VARCHAR(320) ,biodata VARCHAR(320) )
+ALTER TABLE student DROP COLUMN salary
+ALTER TABLE student modify COLUMN salary varchar(20)
+drop table student
+delete from student where rollno=4
+select * from student
+INSERT INTO admission(Rollno,First_Name,Last_Name,Mobile_no) VALUES (9,"choper","Deer",7777777777)
+UPDATE employ set salary=%s where empid=%s 
