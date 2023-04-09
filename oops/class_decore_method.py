@@ -1,6 +1,7 @@
 class eval_equation:
 	def __init__(self,a):
 		self.ans=a
+		print(self.ans)
 	@classmethod
 	def eq1(cls,args):
 		x=cls((args[0]*args[0])+(args[1]*args[1])-args[2])
@@ -27,11 +28,11 @@ while i<3:
 	if len(inp)==2:
 		p=eval_equation.eq2(inp)
 		print("equation 2=",p.ans)
-	elif len(inp)==3:
-		q=eval_equation.eq1(inp)
-		print("equation 1=",q.ans)
-	else:
-		r=eval_equation.eq3(inp)
-		print("equation 3=",r.ans)
+	# elif len(inp)==3:
+	# 	q=eval_equation.eq1(inp)
+	# 	print("equation 1=",q.ans)
+	# else:
+	# 	r=eval_equation.eq3(inp)
+	# 	print("equation 3=",r.ans)
 	i+=1
 		

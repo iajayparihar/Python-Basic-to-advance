@@ -1,7 +1,8 @@
 class fact:
 	f=1
 	def getData(self,x):
-		self.a=x
+		# self.f = 1
+		self.a = x
 		print("a=",self.a)
 
 	def calculate(self):
@@ -13,3 +14,4 @@ class fact:
 k=fact()
 k.getData(int(input("enter the no.")))
 print("Factorial =",k.calculate())
+print(k.__dict__)

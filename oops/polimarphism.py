@@ -4,6 +4,7 @@ class Add:
 		self.y=b
 	def calculate(self):
 		return (self.x+self.y)
+		
 class Multiply:
 		def getData(self,a,b):
 			self.x=a

@@ -1,8 +1,8 @@
-file=open("myfirstfile.txt","r")
-data=file.read()
+file = open("myfirstfile.txt", "r")
+data = file.read()
 file.close()
 
-file1=open("copy.txt","w")
+file1 = open("copy.txt", "w")
 file1.write(data)
 file1.close()
 
@@ -10,7 +10,5 @@ file1.close()
 # print(f.read())
 # f.close()
 
-with open("a.txt","a") as f:
+with open("a.txt", "a") as f:
     f.write(data)
-
-    

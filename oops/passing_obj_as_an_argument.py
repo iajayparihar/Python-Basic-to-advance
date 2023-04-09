@@ -10,6 +10,7 @@ class Copyobj:
 		self.b=m.b
 		m.a+=5
 		m.b+=7
+		
 #__main__
 p=Copyobj()
 k=Copyobj()
@@ -17,3 +18,5 @@ p.getData(5,7)
 k.copy(p)
 p.display()
 k.display()
+print("k obj ",k.__dict__)
+print("p obj ",p.__dict__)
